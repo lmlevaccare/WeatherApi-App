@@ -30,11 +30,12 @@
 <div class="input-group mb-3">
 
 <div class="input-group-prepend">
-  
-<button class="btn btn-outline-secondary" onclick="myWeather()"></button>
+
+<button class="btn btn-outline-secondary" onclick="myWeather()"type="button" class="btn btn-link">Click</button>
+
 <!-- <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"> -->
 
-<input type="text" class="form-control" id="search-term">
+<input type="text" class="form-control" id="search-term" placeholder="City Search">
 
 </div>
 </div>
@@ -51,50 +52,21 @@
   <div class="temp"></div>
   <div class="feels-like"></div>
   <div class="uvi"></div>
-  <textarea data-type="sun" class= "form-control"  id="myTextarea" rows="10" cols="90">
+  <!-- <textarea data-type="sun" class= "form-control"  id="myTextarea" rows="10" cols="90">
 
 
   
-</textarea>
+</textarea> -->
 
 <div class="card-body" id="weather-section"></div>
 </div>
 
 <!-- 5 day forcast cards -->
-<h3>3 DAY WEATHER FORCAST</h3>
-  <div data-city"chi" class="row row-cols-1 row-cols-md-3">
+
+<div id="dayForecast" class="row row-cols-1 row-cols-md-3">
   
-    <div class="col mb-4">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div data-city"chi" class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h1></h1> 
-        <h2></h2>
-      </div>
-    </div>
-  </div>
-  <!-- day 2 -->
-  <div class="col mb-4">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <!-- day 3 -->
-  <div class="col mb-4">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+
+ 
 
 
 
