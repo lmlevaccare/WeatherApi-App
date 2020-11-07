@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Document</title>
+
+
+<link rel="stylesheet" href="style.css">
+<!-- CSS BOOTSTRAP -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+
+<!-- DASHBOARD BANNER -->
+<body>
+<div class="container">
+<div class="jumbotron jumbotron-fluid">
+<h1 class="display-4">WEATHER DASHBOARD</h1>
+</div>
+</div>
+
+<!-- BODY OF DASHBOARD -->
+<div class="container">
+<div class="row" data-temp="api">
+ 
+<div class="col-4">
+<div class="input-group mb-3">
+
+<div class="input-group-prepend">
+  
+<button class="btn btn-outline-secondary" onclick="myWeather()"></button>
+<!-- <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"> -->
+
+<input type="text" class="form-control" id="search-term">
+
+</div>
+</div>
+</div>
+
+<div class="col-8">
+<div data-weather="curWeather"></div>
+<!-- <div class="card"></div> -->
+
+<div class="city"></div>
+ <div class="date"></div>
+  <div class="wind"></div>
+  <div class="humidity"></div>
+  <div class="temp"></div>
+  <div class="feels-like"></div>
+  <div class="uvi"></div>
+  <textarea data-type="sun" class= "form-control"  id="myTextarea" rows="10" cols="90">
+
+
+  
+</textarea>
+
+<div class="card-body" id="weather-section"></div>
+</div>
+
+<!-- 5 day forcast cards -->
+<h3>3 DAY WEATHER FORCAST</h3>
+  <div data-city"chi" class="row row-cols-1 row-cols-md-3">
+  
+    <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div data-city"chi" class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h1></h1> 
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+  <!-- day 2 -->
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <!-- day 3 -->
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- day 4 -->
+  
+ 
+<!-- day 5 -->
+
+ 
+ 
+<!-- container div -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+<!-- jQuery Bootstrao and JS bundle w/ Popper.js -->
+  <script type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+ <!-- Compiled Materialized and minified JavaScript -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+ 
+<script src="./script.js"></script>
+
+</body>
+</html>
