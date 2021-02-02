@@ -1,15 +1,13 @@
+Weather Dashboard
+
 Using the third-party OpenWeather API I made specific queries to the URL to build a weather dashboard. This dashboard run's on the browser,uses localStorage to store any persistent data and features dynamically updated HTML and CSS. 
 
 Technologies Used: 
 
-Javascript,
-
+Javascript
 AJAX "Get" request using jQuery methods to retreive data from a URL database,
-
 JSON- used to correlate keys with values,
-
-HTML,
-
+HTML
 CSS
 
 USER STORY
