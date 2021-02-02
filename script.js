@@ -77,8 +77,9 @@ function forecast(city) {
       var title = $("<p>").text("Hourly Forecast");
       var temp = $("<p>").text("Temperature:" + forecastData.list[i].main.temp);
       var humid = $("<p>").text(
-        "Humidity:" + forecastData.list[i].main.humidity
-      );
+        "Humidity:" + forecastData.list[i].main.humidity);
+      var date = $("<p>").text("Date" + forecastData.list[i].dt_txt.slice(5, 10));
+      
 
       $("#dayForecast").append(
         column.append(card.append(cardBod.append(title, date, temp, humid)))
