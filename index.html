@@ -33,6 +33,7 @@
 
 <button class="btn btn-outline-secondary" onclick="myWeather()"type="button" class="btn btn-link">Click</button>
 
+
 <!-- <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"> -->
 
 <input type="text" class="form-control" id="search-term" placeholder="City Search">
@@ -41,9 +42,9 @@
 </div>
 </div>
 
-<div class="col-8">
-<div data-weather="curWeather"></div>
-<!-- <div class="card"></div> -->
+ 
+<div data-index="3.50" data-weather="curWeather"></div>
+
 
 <div class="city"></div>
  <div class="date"></div>
@@ -51,7 +52,14 @@
   <div class="humidity"></div>
   <div class="temp"></div>
   <div class="feels-like"></div>
-  <div class="uvi"></div>
+  <div class="uvi">
+       <!-- <div id=colorUvIndex"></div> -->
+    <!-- <div hidden class="mod"><div>
+    <div class="sev"></div>
+  </div> -->
+    </div>
+
+
   <!-- <textarea data-type="sun" class= "form-control"  id="myTextarea" rows="10" cols="90">
 
 
@@ -63,7 +71,7 @@
 
 <!-- 5 day forcast cards -->
 
-<div id="dayForecast" class="row row-cols-1 row-cols-md-3">
+<div id="dayForecast" class="row row-cols-1 row-cols-sm-5">
   
 
  
